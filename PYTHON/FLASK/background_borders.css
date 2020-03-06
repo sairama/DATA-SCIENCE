@@ -1,0 +1,15 @@
+/* body{
+  background: url(https://images.unsplash.com/photo-1570824104453-508955ab713e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+} */
+div{
+  background: blue;
+  border: orange 20px dotted;
+}
+p{
+  color: yellow;
+}
+span{
+  background: red;
+  color: black;
+}
