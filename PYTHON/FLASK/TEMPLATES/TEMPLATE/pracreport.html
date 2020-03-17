@@ -1,0 +1,25 @@
+{% extends "practicebse.html" %}
+{% block content %}
+<div class="jumbotron">
+  <p>lets check your username</p>
+
+  {% if report %}
+  <p>your username passed all cheks!</p>
+  {% else %}
+  <ul>
+    {% if not lower%}
+       <li>you did not use lower case letter</li>
+    {% endif %}
+    {% if not upper%}
+       <li>you did not use upper case letter</li>
+    {% endif %}
+    {% if not num_end%}
+       <li>you did not use number</li>
+    {% endif %}
+  </ul>
+  {% endif %}
+
+
+
+</div>
+{% endblock %}

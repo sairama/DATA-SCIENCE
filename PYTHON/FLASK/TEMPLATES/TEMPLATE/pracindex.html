@@ -1,0 +1,12 @@
+{% extends "practicebse.html" %}
+{% block content %}
+ <div class="jumbotron">
+   <h1>please provide  a username (that meets requirements)</h1>
+   <form action="{{url_for('report')}}" >
+     <label for="username">username:</label>
+     <input type="text" name="username" >
+     <input type="submit"  value="Submit Form">
+
+   </form>
+ </div>
+{% endblock %}
